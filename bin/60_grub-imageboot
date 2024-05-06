@@ -27,7 +27,7 @@ then
 	. /etc/default/grub-imageboot
 fi
 
-. /usr/lib/grub/grub-mkconfig_lib
+. /usr/share/grub/grub-mkconfig_lib
 
 imageboot_add() {
 	local extension="$1"
